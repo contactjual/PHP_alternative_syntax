@@ -55,3 +55,18 @@ endswitch;
  <?php for($x=1; $x<=6; $x++): ?>
     <h1>I am Heading-<?php echo $x; ?></h1>
 <?php endfor; ?>
+
+
+
+
+
+<!-- Null Coalescing Operator -->
+<?php 
+
+$nill = null; 
+
+$actul_value = $nill ?? "something"; // jodi nill e value set kora na thake tahole somthing k add koro.
+
+echo $actul_value;
+
+?>
